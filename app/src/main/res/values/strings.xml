@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Estudonauta</string>
+    <string name="strRights">All rights reserved to Estudonauta.com</string>
+    <string name="strTeam">Team</string>
+    <string name="strCourses">Courses</string>
+    <string name="strMedia">Media</string>
+    <string name="strBack">Back</string>
+    <string name="strTeamTitle">Estudonauta Team</string>
+    <string name="strTeamDescription">\tO Estudonauta terá vários professores, mas talvez você já conheça um deles:
+        Gustavo Guanabara, professor carioca, bacharel em Ciência da Computação e licenciado em Informática,
+        que tem mais de 20 anos de experiência em sala de aula.
+        \n\tEle foi o criador do projeto Curso em Vídeo em 2013 que
+        atualmente possui mais de 400 mil alunos atendidos durante todos esses anos.</string>
+    <string name="strTeamMember">Team Member Photo</string>
+    <string name="strTeamCaynam">Caynam Scremin (edição de corte)</string>
+    <string name="strTeamGuan">Gustavo Guanabara (professor)</string>
+    <string name="strTeamItalo">Italo Alves (edição de corte)</string>
+    <string name="strTeamMichel">Michel Guanabara (fnalização)</string>
+    <string name="strTeamPriscila">Priscila Marins (programação)</string>
+    <string name="strTeamRamon">Ramon Felinto (design)</string>
+    <string name="strTeamVera">Vera Machado (tutoria)</string>
+    <string name="strTeamIgor">Ygor Escure (finalização)</string>
+    <string name="strCoursesTitle">Courses</string>
+</resources>

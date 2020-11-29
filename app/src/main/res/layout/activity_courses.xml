@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_red"
+    tools:context=".Courses">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/strCoursesTitle"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTeamBack"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blue_sec"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="clickBack"
+        android:text="@string/strBack"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnTeamBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgCourPort"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="30dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/strCourses"
+                android:onClick="clickCoursePort"
+                app:srcCompat="@drawable/cursoportugol" />
+
+            <ImageView
+                android:id="@+id/imgCourProd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="30dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/strCourses"
+                android:onClick="clickCourseProd"
+                app:srcCompat="@drawable/cursovideo" />
+
+            <ImageView
+                android:id="@+id/imgCourPhp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="30dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/strCourses"
+                android:onClick="clickCoursePhp"
+                app:srcCompat="@drawable/cursophp" />
+
+            <ImageView
+                android:id="@+id/imgCourC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="30dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/strCourses"
+                android:onClick="clickCourseC"
+                app:srcCompat="@drawable/cursolingc" />
+
+            <ImageView
+                android:id="@+id/imgCourCs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="30dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/strCourses"
+                android:onClick="clickCourseCs"
+                app:srcCompat="@drawable/cursolingcsharp" />
+
+            <ImageView
+                android:id="@+id/imgCourKotlin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="30dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/strCourses"
+                android:onClick="clickCourseKotlin"
+                app:srcCompat="@drawable/cursokotlin" />
+
+            <ImageView
+                android:id="@+id/imgCourAndroid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="30dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/strCourses"
+                android:onClick="clickCourseAndroid"
+                app:srcCompat="@drawable/cursoandroid" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
